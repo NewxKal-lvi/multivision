@@ -9,9 +9,12 @@
   "author": "Newx Kal-lvi",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.9.2",
+    "connect": "^3.3.3",
     "express": "^4.10.2",
     "jade": "^1.7.0",
     "middleware": "^1.0.0",
+    "morgan": "^1.5.0",
     "stylus": "^0.49.3"
   }
 }

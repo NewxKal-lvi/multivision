@@ -1,0 +1,133 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'body-parser',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 warn package.json multivision@1.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'body-parser', null ]
+7 verbose cache add name=undefined spec="body-parser" args=["body-parser",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'body-parser',
+8 verbose parsed url   path: 'body-parser',
+8 verbose parsed url   href: 'body-parser' }
+9 silly lockFile 14cf125c-body-parser body-parser
+10 verbose lock body-parser /Users/elvisusantro/.npm/14cf125c-body-parser.lock
+11 silly lockFile 14cf125c-body-parser body-parser
+12 silly lockFile 14cf125c-body-parser body-parser
+13 verbose addNamed [ 'body-parser', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 9f665704-body-parser body-parser@
+16 verbose lock body-parser@ /Users/elvisusantro/.npm/9f665704-body-parser.lock
+17 silly addNameRange { name: 'body-parser', range: '*', hasData: false }
+18 verbose request where is /body-parser
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 34b0000b38df53ea
+21 verbose url raw /body-parser
+22 verbose url resolving [ 'https://registry.npmjs.org/', './body-parser' ]
+23 verbose url resolved https://registry.npmjs.org/body-parser
+24 verbose request where is https://registry.npmjs.org/body-parser
+25 info trying registry request attempt 1 at 16:21:27
+26 verbose etag "31NOWALYE5KS8CUXXM9FZZM0H"
+27 http GET https://registry.npmjs.org/body-parser
+28 http 304 https://registry.npmjs.org/body-parser
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Fri, 21 Nov 2014 15:21:27 GMT',
+29 silly registry.get     server: 'Apache',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'last-modified': 'Fri, 21 Nov 2014 15:20:51 GMT',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"31NOWALYE5KS8CUXXM9FZZM0H"',
+29 silly registry.get     age: '37',
+29 silly registry.get     'x-served-by': 'cache-fra1248-FRA',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '2',
+29 silly registry.get     'x-timer': 'S1416583287.601632,VS0,VE0',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'content-length': '0',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 verbose etag https://registry.npmjs.org/body-parser from cache
+31 silly addNameRange number 2 { name: 'body-parser', range: '*', hasData: true }
+32 silly addNameRange versions [ 'body-parser',
+32 silly addNameRange   [ '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.1.0',
+32 silly addNameRange     '1.1.1',
+32 silly addNameRange     '1.1.2',
+32 silly addNameRange     '1.2.0',
+32 silly addNameRange     '1.2.1',
+32 silly addNameRange     '1.2.2',
+32 silly addNameRange     '1.3.0',
+32 silly addNameRange     '1.3.1',
+32 silly addNameRange     '1.4.0',
+32 silly addNameRange     '1.4.1',
+32 silly addNameRange     '1.4.2',
+32 silly addNameRange     '1.4.3',
+32 silly addNameRange     '1.5.0',
+32 silly addNameRange     '1.5.1',
+32 silly addNameRange     '1.5.2',
+32 silly addNameRange     '1.6.0',
+32 silly addNameRange     '1.6.1',
+32 silly addNameRange     '1.6.2',
+32 silly addNameRange     '1.6.3',
+32 silly addNameRange     '1.6.4',
+32 silly addNameRange     '1.6.5',
+32 silly addNameRange     '1.6.6',
+32 silly addNameRange     '1.6.7',
+32 silly addNameRange     '1.7.0',
+32 silly addNameRange     '1.8.0',
+32 silly addNameRange     '1.8.1',
+32 silly addNameRange     '1.8.2',
+32 silly addNameRange     '1.8.3',
+32 silly addNameRange     '1.8.4',
+32 silly addNameRange     '1.9.0',
+32 silly addNameRange     '1.9.1',
+32 silly addNameRange     '1.9.2' ] ]
+33 verbose addNamed [ 'body-parser', '1.9.2' ]
+34 verbose addNamed [ '1.9.2', '1.9.2' ]
+35 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+36 verbose lock body-parser@1.9.2 /Users/elvisusantro/.npm/4669738b-body-parser-1-9-2.lock
+37 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+38 verbose lock https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz /Users/elvisusantro/.npm/a9656366-ody-parser-body-parser-1-9-2-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz',
+39 verbose addRemoteTarball   '07f52cf104939118bedcba689002017271ef3c0e' ]
+40 info retry fetch attempt 1 at 16:21:28
+41 verbose fetch to= /var/folders/c7/x8hglm0d7f38hcfk5wln5m3c0000gn/T/npm-3190-laUvpmxN/registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+42 http GET https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+43 http 200 https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+44 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+45 silly lockFile a9656366-ody-parser-body-parser-1-9-2-tgz https://registry.npmjs.org/body-parser/-/body-parser-1.9.2.tgz
+46 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+47 silly lockFile 4669738b-body-parser-1-9-2 body-parser@1.9.2
+48 silly lockFile 9f665704-body-parser body-parser@
+49 silly lockFile 9f665704-body-parser body-parser@
+50 error Error: EACCES, mkdir '/Users/elvisusantro/.npm/body-parser/1.9.2'
+50 error  { [Error: EACCES, mkdir '/Users/elvisusantro/.npm/body-parser/1.9.2']
+50 error   errno: 3,
+50 error   code: 'EACCES',
+50 error   path: '/Users/elvisusantro/.npm/body-parser/1.9.2',
+50 error   parent: 'multivision' }
+51 error Please try running this command again as root/Administrator.
+52 error System Darwin 13.4.0
+53 error command "node" "/usr/local/bin/npm" "install" "body-parser" "--save"
+54 error cwd /Applications/MAMP/htdocs/multivision
+55 error node -v v0.10.32
+56 error npm -v 1.4.28
+57 error path /Users/elvisusantro/.npm/body-parser/1.9.2
+58 error code EACCES
+59 error errno 3
+60 error stack Error: EACCES, mkdir '/Users/elvisusantro/.npm/body-parser/1.9.2'
+61 verbose exit [ 3, true ]
